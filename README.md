@@ -14,6 +14,9 @@
 </div>
 
 
+
+
+
 # KernelGDIDraw
 The program draws by calling win32k gdi functions while NtGdiDdDDISubmitCommand is being hooked using Infinity hook. It is
 very simular to vmcall's dxgkrnl_hook. The code is by no means pretty. Maybe someone will find this useful but I don't recommend using this. 
